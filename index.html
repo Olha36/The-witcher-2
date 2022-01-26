@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -41,9 +43,9 @@
         <div class="container">
             <div class="main-content">
                 <div class="content">
-                    <span class="genre">2019, фэнтези</span>
+                    <span class="genre animated fadeInRight">2019, фэнтези</span>
 
-                    <div class="rating">
+                    <div class="rating animated fadeInRight">
                         <div class="rating-stars">
                             <img src="img/Star.svg" alt="star" class="star">
                             <img src="img/Star.svg" alt="star" class="star">
@@ -59,20 +61,20 @@
                         <div class="rating-number">7/10 </div>
                     </div>
 
-                        <h1 class="main-title">Ведьмак </h1>
+                        <h1 class="main-title animated fadeInRight">Ведьмак </h1>
 
-                        <p class="main-description">
+                        <p class="main-description animated fadeInRight">
                             Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс. 
                         </p>
-
+                        <a datafancybox href="https://www.youtube.com/watch?v=Bw6XSzDTeTU" class="button animated fadeInRight">Смотреть трейлер </a>
                 </div>
                 <!-- /.content -->
-                <button class="play">
+                <a data-fancybox href="https://www.youtube.com/watch?v=Bw6XSzDTeTU" class="play">
                     <img src="img/play.svg" alt="play" class="play-img">
-                </button>
+                </a>
                 <!-- /.play -->
             </div>
-            <button class="button">Смотреть онлайн</button>
+            
             <!-- /.main-content -->
 
            <div class="series">
@@ -126,6 +128,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="/js/jquery-1.10.2.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
 

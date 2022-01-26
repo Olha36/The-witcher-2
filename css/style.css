@@ -2,11 +2,11 @@
     font-family: 'MasonChronicles';
     src: url('../fonts/MasonChronicles.woff') format('woff');
     src: url('../fonts/masonchronicles[1].woff2') format('woff2');
-    font-weight: normal;  // you don't need this and next lines as they're default properties
-    font-style: normal;   // I mean this one
+    font-weight: normal;
+    font-style: normal;
 }
 
-body {
+    body {
     background-color: #141218;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -58,12 +58,14 @@ body {
     line-height: 16px;
     margin-bottom: 16px;
     display: block;
+    animation-delay: 0.1s;
 }
 
 .rating {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    animation-delay: 0.3s;
 }
 
 .rating-number {
@@ -77,6 +79,7 @@ body {
     font-size: 76px;
     line-height: 89px;
     margin-bottom: 10px;
+    animation-delay: 0.5s;
 }
 
 .main-description {
@@ -84,15 +87,23 @@ body {
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 40px;
+    animation-delay: 0.7s;
 }
 
 .button {
+    display: inline-block;
     background-color: #9D2929;
     border-radius: 8px;
     color: #FFFFFF;
     border: none;
     padding: 22px 72px;
     margin-bottom: 85px;
+    text-decoration: none;
+    animation-delay: 1s;
+}
+
+.button:active{
+    color: #FFFFFF;
 }
 
 .main-content {
@@ -101,6 +112,9 @@ body {
 }
 
 .play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #9D2929;
     width: 100px;
     height: 100px;
@@ -124,7 +138,8 @@ body {
     position: absolute;
     border-radius: 50%;
     left: -16px;
-    top: -16px;
+    top: -16px; 
+    animation: pulse 0.5s ease-in-out 0.5s infinite;
 }
 
 /*slider*/
