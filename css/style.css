@@ -2,8 +2,8 @@
     font-family: 'MasonChronicles';
     src: url('../fonts/MasonChronicles.woff') format('woff');
     src: url('../fonts/masonchronicles[1].woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: normal;  // you don't need this and next lines as they're default properties
+    font-style: normal;   // I mean this one
 }
 
 body {
