@@ -175,14 +175,14 @@
 }
 
 .series-1 {
-    background:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/img/card-image2.png);
+    background:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(img/card-image2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .series-2 {
-    background:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/img/card-image1.png);
+    background:linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(img/card-image1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -192,7 +192,7 @@
     width: 32px;
     height: 32px;
     border: none;
-    background-image: url(/img/arrow.svg);
+    background-image: url(img/arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
